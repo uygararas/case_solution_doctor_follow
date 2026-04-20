@@ -1,0 +1,124 @@
+{
+  "terms_processed": 10,
+  "term_count": 10,
+  "candidate_retmax": 12,
+  "retmax": 5,
+  "candidate_pmids_before_filtering": 117,
+  "unique_articles": 45,
+  "duplicates_removed": 72,
+  "errors": [],
+  "missing_abstracts": 6,
+  "selected_pmids_by_term": {
+    "atrial fibrillation": [
+      "41914737",
+      "41774050",
+      "41490034",
+      "41955092"
+    ],
+    "type 2 diabetes mellitus": [
+      "41454671",
+      "41999297",
+      "41845564",
+      "41275875",
+      "41421831"
+    ],
+    "pediatric asthma management": [
+      "41506627",
+      "41934309",
+      "41780131",
+      "41777814",
+      "41450192"
+    ],
+    "acute otitis media": [
+      "41342403",
+      "41967279",
+      "41553236",
+      "40521907"
+    ],
+    "chronic kidney disease": [
+      "41980883",
+      "41987561",
+      "41957696",
+      "41987559"
+    ],
+    "iron deficiency anemia": [
+      "41860281",
+      "41922931",
+      "41883305",
+      "41540664",
+      "41672571"
+    ],
+    "community acquired pneumonia": [
+      "41810829",
+      "41719027",
+      "41511276",
+      "41684123",
+      "41906803"
+    ],
+    "gestational diabetes": [
+      "41662250",
+      "41748262",
+      "41620634",
+      "41693486",
+      "41454671"
+    ],
+    "celiac disease diagnosis": [
+      "41714845",
+      "41456747",
+      "41988442",
+      "41782401"
+    ],
+    "allergic rhinitis treatment": [
+      "41795319",
+      "41455307",
+      "41958858",
+      "41858441",
+      "41852853"
+    ]
+  },
+  "top_journals": [
+    [
+      "Renal failure",
+      5
+    ],
+    [
+      "Annals of medicine",
+      3
+    ],
+    [
+      "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+      3
+    ],
+    [
+      "Clinical pediatrics",
+      2
+    ],
+    [
+      "Gut microbes",
+      2
+    ],
+    [
+      "Journal of medical economics",
+      2
+    ],
+    [
+      "Lancet (London, England)",
+      2
+    ],
+    [
+      "Pulmonology",
+      2
+    ],
+    [
+      "The journal of allergy and clinical immunology. Global",
+      2
+    ],
+    [
+      "American journal of hematology",
+      1
+    ]
+  ],
+  "year_distribution": {
+    "2026": 49
+  }
+}

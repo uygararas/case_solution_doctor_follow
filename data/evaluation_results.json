@@ -1,0 +1,379 @@
+{
+  "queries": [
+    "What are the latest guidelines for managing type 2 diabetes?",
+    "Çocuklarda akut otitis media tedavisi nasıl yapılır?",
+    "Iron supplementation dosing for anemia during pregnancy",
+    "Çölyak hastalığı tanı kriterleri nelerdir?",
+    "Antibiotic resistance patterns in community acquired pneumonia"
+  ],
+  "methods": {
+    "BM25": {
+      "per_query": [
+        {
+          "query": "What are the latest guidelines for managing type 2 diabetes?",
+          "pmids": [
+            "41275875",
+            "41454671",
+            "41421831",
+            "41999297",
+            "41620634"
+          ],
+          "relevance_scores": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.6,
+            "MRR": 1.0,
+            "nDCG@5": 0.906
+          }
+        },
+        {
+          "query": "Çocuklarda akut otitis media tedavisi nasıl yapılır?",
+          "pmids": [
+            "41967279",
+            "41964158",
+            "41511276",
+            "41922931",
+            "41342403"
+          ],
+          "relevance_scores": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.2,
+            "MRR": 1.0,
+            "nDCG@5": 1.0
+          }
+        },
+        {
+          "query": "Iron supplementation dosing for anemia during pregnancy",
+          "pmids": [
+            "41672571",
+            "41860281",
+            "41883305",
+            "41540664",
+            "41922931"
+          ],
+          "relevance_scores": [
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.4,
+            "MRR": 0.5,
+            "nDCG@5": 0.6433
+          }
+        },
+        {
+          "query": "Çölyak hastalığı tanı kriterleri nelerdir?",
+          "pmids": [
+            "41999297",
+            "41777814",
+            "41748262",
+            "41719027",
+            "41714845"
+          ],
+          "relevance_scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.0,
+            "MRR": 0.0,
+            "nDCG@5": 0.0
+          }
+        },
+        {
+          "query": "Antibiotic resistance patterns in community acquired pneumonia",
+          "pmids": [
+            "41719027",
+            "41810829",
+            "41906803",
+            "41511276",
+            "41684123"
+          ],
+          "relevance_scores": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.2,
+            "MRR": 0.25,
+            "nDCG@5": 0.4307
+          }
+        }
+      ],
+      "average": {
+        "P@5": 0.28,
+        "MRR": 0.55,
+        "nDCG@5": 0.596
+      }
+    },
+    "Semantic": {
+      "per_query": [
+        {
+          "query": "What are the latest guidelines for managing type 2 diabetes?",
+          "pmids": [
+            "41454671",
+            "41845564",
+            "41275875",
+            "41421831",
+            "41693486"
+          ],
+          "relevance_scores": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.4,
+            "MRR": 0.3333,
+            "nDCG@5": 0.5706
+          }
+        },
+        {
+          "query": "Çocuklarda akut otitis media tedavisi nasıl yapılır?",
+          "pmids": [
+            "41967279",
+            "41342403",
+            "41964158",
+            "41934309",
+            "41450192"
+          ],
+          "relevance_scores": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.2,
+            "MRR": 1.0,
+            "nDCG@5": 1.0
+          }
+        },
+        {
+          "query": "Iron supplementation dosing for anemia during pregnancy",
+          "pmids": [
+            "41672571",
+            "41540664",
+            "41860281",
+            "41883305",
+            "41922931"
+          ],
+          "relevance_scores": [
+            0,
+            1,
+            2,
+            0,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.4,
+            "MRR": 0.5,
+            "nDCG@5": 0.6199
+          }
+        },
+        {
+          "query": "Çölyak hastalığı tanı kriterleri nelerdir?",
+          "pmids": [
+            "41986138",
+            "41782401",
+            "41456747",
+            "41714845",
+            "41858441"
+          ],
+          "relevance_scores": [
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.4,
+            "MRR": 1.0,
+            "nDCG@5": 0.7602
+          }
+        },
+        {
+          "query": "Antibiotic resistance patterns in community acquired pneumonia",
+          "pmids": [
+            "41719027",
+            "41684123",
+            "41906803",
+            "41810829",
+            "41858441"
+          ],
+          "relevance_scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.0,
+            "MRR": 0.0,
+            "nDCG@5": 0.0
+          }
+        }
+      ],
+      "average": {
+        "P@5": 0.28,
+        "MRR": 0.5667,
+        "nDCG@5": 0.5901
+      }
+    },
+    "Hybrid RRF": {
+      "per_query": [
+        {
+          "query": "What are the latest guidelines for managing type 2 diabetes?",
+          "pmids": [
+            "41454671",
+            "41845564",
+            "41275875",
+            "41421831",
+            "41999297"
+          ],
+          "relevance_scores": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "metrics": {
+            "P@5": 0.6,
+            "MRR": 0.3333,
+            "nDCG@5": 0.6183
+          }
+        },
+        {
+          "query": "Çocuklarda akut otitis media tedavisi nasıl yapılır?",
+          "pmids": [
+            "41967279",
+            "41964158",
+            "41342403",
+            "40521907",
+            "41553236"
+          ],
+          "relevance_scores": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.2,
+            "MRR": 1.0,
+            "nDCG@5": 1.0
+          }
+        },
+        {
+          "query": "Iron supplementation dosing for anemia during pregnancy",
+          "pmids": [
+            "41860281",
+            "41883305",
+            "41672571",
+            "41540664",
+            "41922931"
+          ],
+          "relevance_scores": [
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "metrics": {
+            "P@5": 0.4,
+            "MRR": 1.0,
+            "nDCG@5": 0.9239
+          }
+        },
+        {
+          "query": "Çölyak hastalığı tanı kriterleri nelerdir?",
+          "pmids": [
+            "41456747",
+            "41714845",
+            "41988442",
+            "41782401",
+            "41986138"
+          ],
+          "relevance_scores": [
+            2,
+            0,
+            1,
+            0,
+            1
+          ],
+          "metrics": {
+            "P@5": 0.6,
+            "MRR": 1.0,
+            "nDCG@5": 0.922
+          }
+        },
+        {
+          "query": "Antibiotic resistance patterns in community acquired pneumonia",
+          "pmids": [
+            "41719027",
+            "41810829",
+            "41684123",
+            "41906803",
+            "41511276"
+          ],
+          "relevance_scores": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "metrics": {
+            "P@5": 0.2,
+            "MRR": 0.2,
+            "nDCG@5": 0.3869
+          }
+        }
+      ],
+      "average": {
+        "P@5": 0.4,
+        "MRR": 0.7067,
+        "nDCG@5": 0.7702
+      }
+    }
+  },
+  "winner_by_metric": {
+    "P@5": [
+      "Hybrid RRF"
+    ],
+    "MRR": [
+      "Hybrid RRF"
+    ],
+    "nDCG@5": [
+      "Hybrid RRF"
+    ]
+  }
+}
